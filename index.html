@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Arron Harden</title>
+	<link rel="shortcut icon" type="image/png" sizes="any" href="favicon.png"/>
+	<link rel="icon" type="image/svg+xml" sizes="any" href="img/favicon.svg"/>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+	<!-- Font awesome -->
+	<script src="https://kit.fontawesome.com/7bf0e52602.js"></script>
+	
+	<link href="style.css" rel="stylesheet">
+
+	<script>
+		$(document).ready(function(){
+			$('#projects-slider').slick({
+				slidesToShow: 4,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 5000,
+				arrows: false,
+				dots: false,
+				pauseOnHover: false,
+				responsive: [{
+					breakpoint: 992,
+					settings: {
+						slidesToShow: 3
+					}
+				}, {
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 2
+					}
+				}, {
+					breakpoint: 576,
+					settings: {
+						slidesToShow: 2
+					}
+				}]
+			});
+		});
+	</script>
+</head>
+<body id="home" class="bg-light">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+	<div class="container-fluid">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#home"><i class="fas fa-home icon-emph"></i><span class="ml-2">Home</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#about-me">About me</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#my-work">My work</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#connect">Connect</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- Summary -->
+<section id="summary" class="container-fluid summary pt-5">
+	<div class="row text-center">
+		<div class="col-2"></div>
+		<div class="col-8 section-padding">
+			<div class="d-inline-block px-4 mb-4">
+				<img src="img/arron_harden.png">	
+			</div>
+			<div class="d-inline-block px-4 text-left summary-info">
+				<h2>Arron Harden</h3>
+				<div class="pt-3">
+					<h4>> Software architect &amp; lead</h4>
+					<h4>> Full stack</h4>
+					<h4>> Software-As-A-Service</h4>
+				</div>
+			</div>
+		</div>
+		<div class="col-2"></div>
+	</div>
+</section>
+
+
+<!-- About me -->
+<section id="about-me" class="container-fluid about-me section-padding">
+	<div class="row text-center">
+		<div class="col-2"></div>
+		<div class="col-8">
+			<h3><i class="fas fa-user pr-3 icon-emph"></i>About Me</h3>
+			<p>
+			I'm a <span class="about-me-emph">full stack ​architect</span> and <span class="about-me-emph">lead software engineer</span>​, who has most recently been leading a team developing components for a Software-As-A-Service (SaaS) application from IBM, which assesses and monitors the quality and bias of AI and ML models. 
+			</p>
+			
+			<p>
+			Having spent my time both leading teams and down in the trenches as we moved from developing monolithic on-prem applications to fully elastic cloud native micro-services, I'm now a full convert of the cloud native approach. At its best, this can deliver robust, scalable and secure applications.
+			</p>
+			
+			<p>
+			I enjoy the architectural challenges of designing a robust application, as well as switching gears to get involved developing the code as well. It doesn't matter whether it's user-interface code or backend micro-service implementation, I'm happy in any environment and believe having a view across all the entire application stack makes for making better, more informed decisions.
+			</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+
+	<!-- Technology -->
+	<div class="row text-center pt-3 technology">
+		<div class="col-2"></div>
+		<div class="col-8">
+			<h6><i class="fas fa-cogs pr-2 icon-emph"></i>Key technology and skills</h6>
+			<div id="technology-detail" class="text-left">
+				<ul>
+					<li>Technical team leadership for cloud native applications</li>
+					<li>Continuous delivery and agile project management</li>
+					<li>User-interfaces using Bootstrap, React, and pure Javascript/HTML/CSS</li>
+					<li>Micro-service (REST API) design, definition and implementation</li>
+					<li>Applications servers: Node.js, J2EE</li>
+					<li>Cloud services: Cloudant NoSql DB, Redis, etcd, DB2, RabbitMQ, Kafka, ObjectStorage</li>
+					<li>Toolchains: Kubernetes, Docker, GitHub, Jenkins</li>
+					<li>Main languages: Javascript, Java, Python</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-2"></div>
+	</div>
+</section>
+
+
+<!-- My work -->
+<section id="my-work" class="container-fluid my-work section-padding">
+	<div class="row text-center">
+		<div class="col-2"></div>
+		<div class="col-8">
+			<h3>My work</h3>
+		</div>
+	</div>
+
+	<!-- Projects -->
+	<div class="row text-center projects">
+		<div class="col-2"></div>
+		<div class="col-8 pt-2">
+			<h6><i class="fas fa-hammer pr-2 icon-emph"></i>Projects</h6>
+			The following are some of the projects and SaaS applications I've worked on over the years.
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row text-center projects-slider">
+		<div class="col-1"></div>
+		<div class="col-10">
+			<div id="projects-slider" class="slider pt-3">
+				<div class="slide">
+					<a href="https://www.ibm.com/uk-en/analytics/information-server" target="_blank">
+						<img class="d-inline-block" src="img/information-server.png">
+						<div>IBM Information Server</div>
+					</a>
+				</div>
+				<div class="slide">
+					<a href="https://www.ibm.com/uk-en/marketplace/data-connect" target="_blank">
+						<img class="d-inline-block" src="img/dataconnect.png">
+						<div>IBM Bluemix DataConnect</div>
+					</a>
+				</div>
+				<div class="slide">
+					<a href="https://cloud.ibm.com/catalog/services/watson-studio" target="_blank">
+						<img class="d-inline-block" src="img/watson-studio.svg" style="width: 40px; height: 40px;">
+						<div>IBM Watson Studio</div>
+					</a>
+				</div>
+				<div class="slide">
+					<a href="https://cloud.ibm.com/catalog/services/watson-openscale" target="_blank">
+						<img class="d-inline-block" src="img/watson-openscale.png">
+						<div>IBM Watson OpenScale</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-1"></div>
+	</div>
+
+	<!-- Patents -->
+	<div class="row text-center patents">
+		<div class="col-2"></div>
+		<div class="col-8">
+			<h6><i class="fas fa-lightbulb pr-2 icon-emph"></i>Patents</h6>
+			<p>I am a co-inventor of 8 US software patents, ranging from user-interface accessibility adaptions, encoding diagnostic information in QR codes, to automatic test case generation.</p>
+			<div class="patent-detail-container">
+				<a class="btn btn-link" data-toggle="collapse" href="#patent-detail" role="button" aria-expanded="false" aria-controls="patent-detail">
+					Show patents <i class="fas fa-angle-down"></i>
+				</a>
+				<div id="patent-detail" class="collapse text-left">
+					<ul>
+						<li>
+							<div class="patent-title">Interactive social media access to data systems</div>
+							<div class="patent-info">Granted March 2019 as US patent number <a href="https://patents.google.com/patent/US10223432B2/en" target="_blank">10223432 <i class="fas fa-external-link-alt"></i></a></div>
+						</li>
+
+						<li>
+							<div class="patent-title">Automatic test case generation</div>
+							<div class="patent-info">Granted August 2017 as US patent number <a href="https://patents.google.com/patent/US9767008B2/en" target="_blank">9767008 <i class="fas fa-external-link-alt"></i></a></div>
+						</li>
+
+						<li>
+							<div class="patent-title">Integrating data transform test with data transform tool</div>
+							<div class="patent-info">Granted July 2017 as US patent number <a href="https://patents.google.com/patent/US9703849/en" target="_blank">9703849 <i class="fas fa-external-link-alt"></i></a></div>
+						</li>
+						
+						<li>
+							<div class="patent-title">Extract transform load input suggestion</div>
+							<div class="patent-info">Granted October 2016 as US patent number <a href="https://patents.google.com/patent/US9471652/en" target="_blank">9471652 <i class="fas fa-external-link-alt"></i></a></div>
+						</li>
+						
+						<li>
+							<div class="patent-title">Encoding diagnostic data in an error message for a computer program</div>
+							<div class="patent-info">Granted October 2016 as US patent number <a href="https://patents.google.com/patent/US9471412/en" target="_blank">9471412 <i class="fas fa-external-link-alt"></i></a></div>
+						</li>
+						
+						<li>
+							<div class="patent-title">Method and system for graphically emphasizing a path through a diagram</div>
+							<div class="patent-info">Granted August 2015 as US patent number <a href="https://patents.google.com/patent/US9110575/en" target="_blank">9110575 <i class="fas fa-external-link-alt"></i></a></div>
+						</li>
+						
+						<li>
+							<div class="patent-title">Simplified graphical analysis of multiple data series</div>
+							<div class="patent-info">Granted May 2014 as US patent number <a href="https://patents.google.com/patent/US8736613/en" target="_blank">8736613 <i class="fas fa-external-link-alt"></i></a></div>
+						</li>
+						
+						<li>
+							<div class="patent-title">Extract-transform-load processor controller</div>
+							<div class="patent-info">Granted October 2013 as US patent number <a href="https://patents.google.com/patent/US9286361/en" target="_blank">9286361 <i class="fas fa-external-link-alt"></i></a></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-2"></div>
+	</div>
+</div>	
+</section>
+
+
+<!-- Connect -->
+<section id="connect" class="container-fluid connect section-padding pb-0">
+	<div class="row text-center pt-3">
+		<div class="col-2"></div>
+		<div class="col-8 pt-2">
+			<h3><i class="far fa-id-card pr-3 icon-emph"></i>Connect</h3>
+			<p>You can connect with me using the following social media platforms.</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row text-center">
+		<div class="col-12 social">
+			<a href="https://twitter.com/arronharden" target="_blank"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.linkedin.com/in/arronharden" target="_blank"><i class="fab fa-linkedin"></i></a>
+		</div>
+	</div>
+</section>
+
+
+<!--- Footer -->
+<footer>
+	<div class="container-fluid bg-light section-padding">
+		<div class="row text-center">
+			<div class="col-md-3">
+				<hr class="light">
+				<h5><i class="fas fa-globe-europe"></i><span class="ml-2">Location</span></h5>
+				<hr class="light">
+				<p><a href="https://www.google.co.uk/maps/@52.0381369,-0.7751966,14z" target="_blank">Milton Keynes, UK <i class="fas fa-external-link-alt"></i></a></p>
+			</div>
+			<div class="col-md-3">
+				<hr class="light">
+				<h5><i class="fas fa-phone-alt"></i><span class="ml-2">Phone</span></h5>
+				<hr class="light">
+				<p>(Withheld)</p>
+			</div>
+			<div class="col-md-3">
+				<hr class="light">
+				<h5><i class="far fa-envelope"></i><span class="ml-2">Email</span></h5>
+				<hr class="light">
+				<p><a href="mailto:hello@arronharden.com">hello@arronharden.com</a></p>
+			</div>
+			<div class="col-md-3">
+				<hr class="light">
+				<h5><i class="fas fa-angle-double-right"></i><span class="ml-2">Articles</span></h5>
+				<hr class="light">
+				<p><a href="https://medium.com/@arron.harden" target="_blank">Medium.com <i class="fas fa-external-link-alt"></i></a></p>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-12">
+				<hr class="light">
+				<h5>&copy; Arron Harden 2019</h5>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+</body>
+</html>
