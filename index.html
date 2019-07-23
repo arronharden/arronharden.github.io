@@ -6,48 +6,6 @@
 	<title>Arron Harden</title>
 	<link rel="shortcut icon" type="image/png" sizes="any" href="favicon.png"/>
 	<link rel="icon" type="image/svg+xml" sizes="any" href="img/favicon.svg"/>
-
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-
-	<!-- Font awesome -->
-	<script src="https://kit.fontawesome.com/7bf0e52602.js"></script>
-	
-	<link href="style.css" rel="stylesheet">
-
-	<script>
-		$(document).ready(function(){
-			$('#projects-slider').slick({
-				slidesToShow: 4,
-				slidesToScroll: 1,
-				autoplay: true,
-				autoplaySpeed: 5000,
-				arrows: false,
-				dots: false,
-				pauseOnHover: false,
-				responsive: [{
-					breakpoint: 992,
-					settings: {
-						slidesToShow: 3
-					}
-				}, {
-					breakpoint: 768,
-					settings: {
-						slidesToShow: 2
-					}
-				}, {
-					breakpoint: 576,
-					settings: {
-						slidesToShow: 2
-					}
-				}]
-			});
-		});
-	</script>
 </head>
 <body id="home" class="bg-light">
 
@@ -122,9 +80,9 @@
 	<!-- Technology -->
 	<div class="row text-center pt-3 technology">
 		<div class="col-2"></div>
-		<div class="col-8">
+		<div class="col-8 text-center">
 			<h6><i class="fas fa-cogs pr-2 icon-emph"></i>Key technology and skills</h6>
-			<div id="technology-detail" class="text-left">
+			<div id="technology-detail" class="text-left d-inline-block">
 				<ul>
 					<li>Technical team leadership for cloud native applications</li>
 					<li>Continuous delivery and agile project management</li>
@@ -199,52 +157,47 @@
 		<div class="col-8">
 			<h6><i class="fas fa-lightbulb pr-2 icon-emph"></i>Patents</h6>
 			<p>I am a co-inventor of 8 US software patents, ranging from user-interface accessibility adaptions, encoding diagnostic information in QR codes, to automatic test case generation.</p>
-			<div class="patent-detail-container">
+			<div class="patent-detail-container d-inline-block">
 				<a class="btn btn-link" data-toggle="collapse" href="#patent-detail" role="button" aria-expanded="false" aria-controls="patent-detail">
 					Show patents <i class="fas fa-angle-down"></i>
 				</a>
-				<div id="patent-detail" class="collapse text-left">
-					<ul>
-						<li>
-							<div class="patent-title">Interactive social media access to data systems</div>
-							<div class="patent-info">Granted March 2019 as US patent number <a href="https://patents.google.com/patent/US10223432B2/en" target="_blank">10223432 <i class="fas fa-external-link-alt"></i></a></div>
-						</li>
-
-						<li>
-							<div class="patent-title">Automatic test case generation</div>
-							<div class="patent-info">Granted August 2017 as US patent number <a href="https://patents.google.com/patent/US9767008B2/en" target="_blank">9767008 <i class="fas fa-external-link-alt"></i></a></div>
-						</li>
-
-						<li>
-							<div class="patent-title">Integrating data transform test with data transform tool</div>
-							<div class="patent-info">Granted July 2017 as US patent number <a href="https://patents.google.com/patent/US9703849/en" target="_blank">9703849 <i class="fas fa-external-link-alt"></i></a></div>
-						</li>
-						
-						<li>
-							<div class="patent-title">Extract transform load input suggestion</div>
-							<div class="patent-info">Granted October 2016 as US patent number <a href="https://patents.google.com/patent/US9471652/en" target="_blank">9471652 <i class="fas fa-external-link-alt"></i></a></div>
-						</li>
-						
-						<li>
-							<div class="patent-title">Encoding diagnostic data in an error message for a computer program</div>
-							<div class="patent-info">Granted October 2016 as US patent number <a href="https://patents.google.com/patent/US9471412/en" target="_blank">9471412 <i class="fas fa-external-link-alt"></i></a></div>
-						</li>
-						
-						<li>
-							<div class="patent-title">Method and system for graphically emphasizing a path through a diagram</div>
-							<div class="patent-info">Granted August 2015 as US patent number <a href="https://patents.google.com/patent/US9110575/en" target="_blank">9110575 <i class="fas fa-external-link-alt"></i></a></div>
-						</li>
-						
-						<li>
-							<div class="patent-title">Simplified graphical analysis of multiple data series</div>
-							<div class="patent-info">Granted May 2014 as US patent number <a href="https://patents.google.com/patent/US8736613/en" target="_blank">8736613 <i class="fas fa-external-link-alt"></i></a></div>
-						</li>
-						
-						<li>
-							<div class="patent-title">Extract-transform-load processor controller</div>
-							<div class="patent-info">Granted October 2013 as US patent number <a href="https://patents.google.com/patent/US9286361/en" target="_blank">9286361 <i class="fas fa-external-link-alt"></i></a></div>
-						</li>
-					</ul>
+				<div id="patent-detail" class="collapse text-center pr-3">
+					<div class="text-left">
+						<ul>
+							<li>
+								<div class="patent-title">Interactive social media access to data systems</div>
+								<div class="patent-info">Granted March 2019 as US patent number <a href="https://patents.google.com/patent/US10223432B2/en" target="_blank">10223432 <i class="fas fa-external-link-alt"></i></a></div>
+							</li>
+							<li>
+								<div class="patent-title">Automatic test case generation</div>
+								<div class="patent-info">Granted August 2017 as US patent number <a href="https://patents.google.com/patent/US9767008B2/en" target="_blank">9767008 <i class="fas fa-external-link-alt"></i></a></div>
+							</li>
+							<li>
+								<div class="patent-title">Integrating data transform test with data transform tool</div>
+								<div class="patent-info">Granted July 2017 as US patent number <a href="https://patents.google.com/patent/US9703849/en" target="_blank">9703849 <i class="fas fa-external-link-alt"></i></a></div>
+							</li>
+							<li>
+								<div class="patent-title">Extract transform load input suggestion</div>
+								<div class="patent-info">Granted October 2016 as US patent number <a href="https://patents.google.com/patent/US9471652/en" target="_blank">9471652 <i class="fas fa-external-link-alt"></i></a></div>
+							</li>
+							<li>
+								<div class="patent-title">Encoding diagnostic data in an error message for a computer program</div>
+								<div class="patent-info">Granted October 2016 as US patent number <a href="https://patents.google.com/patent/US9471412/en" target="_blank">9471412 <i class="fas fa-external-link-alt"></i></a></div>
+							</li>
+							<li>
+								<div class="patent-title">Method and system for graphically emphasizing a path through a diagram</div>
+								<div class="patent-info">Granted August 2015 as US patent number <a href="https://patents.google.com/patent/US9110575/en" target="_blank">9110575 <i class="fas fa-external-link-alt"></i></a></div>
+							</li>
+							<li>
+								<div class="patent-title">Simplified graphical analysis of multiple data series</div>
+								<div class="patent-info">Granted May 2014 as US patent number <a href="https://patents.google.com/patent/US8736613/en" target="_blank">8736613 <i class="fas fa-external-link-alt"></i></a></div>
+							</li>
+							<li>
+								<div class="patent-title">Extract-transform-load processor controller</div>
+								<div class="patent-info">Granted October 2013 as US patent number <a href="https://patents.google.com/patent/US9286361/en" target="_blank">9286361 <i class="fas fa-external-link-alt"></i></a></div>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -311,6 +264,47 @@
 	</div>
 </footer>
 
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+<link href="style.css" rel="stylesheet">
+
+<!-- Font awesome -->
+<script src="https://kit.fontawesome.com/7bf0e52602.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$('#projects-slider').slick({
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 5000,
+			arrows: false,
+			dots: false,
+			pauseOnHover: false,
+			responsive: [{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 3
+				}
+			}, {
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 2
+				}
+			}, {
+				breakpoint: 576,
+				settings: {
+					slidesToShow: 2
+				}
+			}]
+		});
+	});
+</script>
 
 </body>
 </html>
