@@ -43,8 +43,8 @@ nav {
 .projects .projects-summary {
   max-width: 600px;
 }
-.projects-slider .slider {
-  max-width: 1000px;
+.projects-slider .projects-slider-container {
+  rrmax-width: 1000px;
 }
 .projects-slider .slide {
   padding-top: 5px;
