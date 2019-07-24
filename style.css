@@ -35,8 +35,17 @@ nav {
 .about-me .about-me-emph {
   font-weight: 500;
 }
+.about-me .about-me-detail {
+  max-width: 800px;
+}
 
 /* my-work -> projects */
+.projects .projects-summary {
+  max-width: 600px;
+}
+.projects-slider .slider {
+  max-width: 1000px;
+}
 .projects-slider .slide {
   padding-top: 5px;
 }
@@ -48,11 +57,14 @@ nav {
 .patents {
   padding-top: 1.75rem;
 }
+.patents .patent-summary {
+  max-width: 600px;
+}
 .patents li {
   margin-bottom: 1rem;
 }
 .patents .patent-detail-container {
-  background-color: #f2f3f5;
+  background-color: #eceeee;
   border-radius: 5px;
 }
 .patents .patent-detail-container a {
@@ -69,6 +81,9 @@ nav {
 }
 
 /* connect */
+.connect .connect-summary {
+  max-width: 600px;
+}
 .connect .fa-id-card {
   font-size: 1.25rem;
   vertical-align: middle;
@@ -102,11 +117,11 @@ footer hr.light {
   margin-top: .8rem;
   margin-bottom: 1rem;
 }
-footer hr.light-100 {
-  border-top: 1px solid #747474;
+footer hr.very-light {
+  border-top: 1px solid #cfcfcf;
   width: 75%;
   margin-top: .8rem;
-  margin-bottom: 1rem;
+  margin-bottom: .75rem;
 }
 footer .section-padding {
   padding-bottom: 1rem;
@@ -190,6 +205,9 @@ h5 {
 }
 .display-4 {
   font-size: 160%;
+}
+footer hr.very-light {
+  border-top: 0px;
 }
 }
 
