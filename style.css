@@ -17,6 +17,7 @@ nav {
 }
 .section-padding {
   padding: 3rem 5rem;
+  overflow: hidden;
 }
 
 /* summary */
@@ -44,7 +45,8 @@ nav {
   max-width: 600px;
 }
 .projects-slider .projects-slider-container {
-  rrmax-width: 1000px;
+  max-width: 800px;
+  width: 100%;
 }
 .projects-slider .slide {
   padding-top: 5px;
