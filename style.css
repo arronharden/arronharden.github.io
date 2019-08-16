@@ -82,6 +82,14 @@ nav {
   font-size: .8rem;
 }
 
+/* my-work -> publications */
+.pubs {
+  padding-top: 2em;
+}
+.pubs a {
+  color: #747474;
+}
+
 /* connect */
 .connect .connect-summary {
   max-width: 600px;
@@ -100,8 +108,12 @@ nav {
 .connect .fa-linkedin {
     color: #007bb6
 }
+.connect .fa-github {
+    color: #24292e
+}
 .connect .fa-twitter:hover, 
-.connect .fa-linkedin:hover {
+.connect .fa-linkedin:hover, 
+.connect .fa-github:hover {
   color: #d5d5d5;
 }
 
